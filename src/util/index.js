@@ -187,7 +187,7 @@ function Log(title, value) {
 
 function sign(params) {
   var s = 'MZZ';
-  s += params.qq.tirm();
+  s += params.qq.trim();
   s += params.num;
   s += params.type;
   s += 'mzz';

@@ -1,0 +1,40 @@
+.child-view {
+  width: 100%;
+}
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: all 500ms ease-in;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0;
+  transition: all 300ms ease-in;
+}
+
+
+.slide-left-enter, .slide-right-leave-active{
+  opacity: 0;
+  -webkit-transform: translate(100%, 0);
+  transform: translate(100%, 0); 
+  transition: all .3s ease-out;
+} 
+
+.slide-left-leave-active, .slide-right-enter {
+  opacity: 0;
+  -webkit-transform: translate(-100%, 0); 
+  transform: translate(-100%, 0);
+  transition: all .3s ease-out; 
+}
+
+
+.am-tabs-tab-bar-wrap {
+  background: #fff;
+}

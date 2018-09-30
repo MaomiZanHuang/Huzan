@@ -6,7 +6,7 @@ import {withRouter} from 'react-router';
 import util from '../util/index';
 
 var data, qzonetoken, g_tk, qq, cookie;
-var HOST = window.Zan ? 'http://520cy.cn' : '';
+var HOST = window.Zan ? 'http://120.78.74.34' : '';
 const ls = util.ls;
 class QZONE_ZAN extends React.Component {
   constructor(props) {

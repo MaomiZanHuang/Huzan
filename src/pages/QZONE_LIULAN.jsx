@@ -6,7 +6,7 @@ import {withRouter} from 'react-router';
 import util from '../util/index';
 
 var data, qzonetoken, g_tk, qq, cookie;
-var HOST = 'http://520cy.cn';
+var HOST = 'http://120.78.74.34';
 const ls = util.ls;
 class QZONE_LIULAN extends React.Component {
   constructor(props) {

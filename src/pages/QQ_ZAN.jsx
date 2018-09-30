@@ -6,7 +6,7 @@ import $ from 'axios';
 import util from '../util/index';
 
 var data, qzonetoken, g_tk, qq, cookie;
-var HOST = 'http://520cy.cn';
+var HOST = 'http://120.78.74.34';
 // 对本地记录进行，没有刷完或者因网络原因提交失败的订单进行恢复
 
 const ls = util.ls;

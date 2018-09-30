@@ -6,7 +6,7 @@ import util from '@/util/index.js';
 
 var data, qzonetoken, g_tk, qq, cookie;
 const ls = util.ls;
-var HOST = 'http://520cy.cn';
+var HOST = 'http://120.78.74.34';
 
 export default class QQ_ZAN extends React.Component {
   constructor(props) {

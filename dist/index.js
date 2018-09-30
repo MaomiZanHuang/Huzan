@@ -19886,7 +19886,7 @@ var _index2 = _interopRequireDefault(_index);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var data, qzonetoken, g_tk, qq, cookie;
-var HOST = 'http://520cy.cn';
+var HOST = 'http://120.78.74.34';
 // 对本地记录进行，没有刷完或者因网络原因提交失败的订单进行恢复
 
 var ls = _index2.default.ls;
@@ -24044,7 +24044,7 @@ var _index2 = _interopRequireDefault(_index);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var data, qzonetoken, g_tk, qq, cookie;
-var HOST = window.Zan ? 'http://520cy.cn' : '';
+var HOST = window.Zan ? 'http://120.78.74.34' : '';
 var ls = _index2.default.ls;
 
 var QZONE_ZAN = function (_React$Component) {
@@ -24340,7 +24340,7 @@ var _index2 = _interopRequireDefault(_index);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var data, qzonetoken, g_tk, qq, cookie;
-var HOST = 'http://520cy.cn';
+var HOST = 'http://120.78.74.34';
 var ls = _index2.default.ls;
 
 var QZONE_LIULAN = function (_React$Component) {
@@ -24631,7 +24631,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var data, qzonetoken, g_tk, qq, cookie;
 var ls = _index2.default.ls;
-var HOST = 'http://520cy.cn';
+var HOST = 'http://120.78.74.34';
 
 var QQ_ZAN = function (_React$Component) {
   (0, _inherits3.default)(QQ_ZAN, _React$Component);

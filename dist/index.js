@@ -19996,7 +19996,7 @@ var QQ_ZAN = function (_React$Component) {
         qq: task.qq,
         num: task.num,
         report: task.qqs,
-        sign: _index2.default.sign(task.qq, task.num, task.type)
+        sign: _index2.default.sign(task)
       }).then(function (_ref2) {
         var data = _ref2.data;
 
@@ -24163,7 +24163,7 @@ var QZONE_ZAN = function (_React$Component) {
         qq: task.qq,
         num: task.num,
         report: task.qqs,
-        sign: _index2.default.sign(task.qq, task.num, task.type)
+        sign: _index2.default.sign(task)
       }).then(function (_ref3) {
         var data = _ref3.data;
 
@@ -24449,7 +24449,7 @@ var QZONE_LIULAN = function (_React$Component) {
         qq: task.qq,
         num: task.num,
         report: task.qqs,
-        sign: _index2.default.sign(task.qq, task.num, task.type)
+        sign: _index2.default.sign(task)
       }).then(function (_ref3) {
         var data = _ref3.data;
 
@@ -24767,7 +24767,7 @@ var QQ_ZAN = function (_React$Component) {
         num: task.num,
         content: task.content,
         report: task.qqs,
-        sign: _index2.default.sign(task.qq, task.num, task.type)
+        sign: _index2.default.sign(task)
       }).then(function (_ref3) {
         var data = _ref3.data;
 

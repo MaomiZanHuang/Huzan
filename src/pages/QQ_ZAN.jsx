@@ -100,7 +100,7 @@ class QQ_ZAN extends React.Component {
         qq: task.qq,
         num: task.num,
         report: task.qqs,
-        sign: util.sign(task.qq, task.num, task.type)
+        sign: util.sign(task)
     }).then(({data}) => {
 
       Toast.info(data.msg);

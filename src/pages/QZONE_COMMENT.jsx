@@ -119,7 +119,7 @@ putTask(task) {
       num: task.num,
       content: task.content,
       report: task.qqs,
-      sign: util.sign(task.qq, task.num, task.type)
+      sign: util.sign(task)
   }).then(({data}) => {
 
     Toast.info(data.msg);
